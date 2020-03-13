@@ -127,6 +127,10 @@ public class LearningTest {
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		System.out.println("pageloadingtime");
 	}
+	public static void pageloadingtime1(){
+		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+		System.out.println("pageloadingtime");
+	}
 	
 	
 	public static void main(String[] args) throws IOException {
